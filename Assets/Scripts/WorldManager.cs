@@ -174,7 +174,7 @@ public class WorldManager : MonoBehaviour {
                     gizmoParent.transform.rotation = worldPointsList[i].target.parent.rotation;
                 }
                 /// Draw a gizmo sphere in the world point position.
-                Gizmos.DrawSphere(gizmoPoint.transform.position, 0.07f);
+                Gizmos.DrawSphere(gizmoPoint.transform.position, 0.04f);
                 /// Destroy all the objects created.
                 DestroyImmediate(gizmoPoint);
                 DestroyImmediate(gizmoParent);
